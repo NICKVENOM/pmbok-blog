@@ -11,11 +11,19 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
+<!-- HEADER -->
+
+<header class="header">
 
     <div class="logo">
         PMBLOG
@@ -36,35 +44,75 @@
 
 </header>
 
-<section class="hero">
+<!-- HERO -->
 
-    <div class="hero-contenido">
+<section class="hero-home">
 
-        <span class="categoria">
-            PROYECTO PMBOK
+    <div class="hero-overlay"></div>
+
+    <div class="hero-home-content">
+
+        <span class="hero-badge">
+            PROYECTO PMBOK • TRANSFORMACIÓN DIGITAL
         </span>
 
         <h1>
-            Transformación Digital Educativa
-            en el Colegio Peruano Francés
+            Innovación Educativa
+            para el Futuro Digital
         </h1>
 
         <p>
-            Implementación de soluciones tecnológicas
-            para mejorar la gestión académica
-            y administrativa.
+            Proyecto de transformación digital
+            aplicado al Colegio Peruano Francés
+            mediante estrategias modernas,
+            gestión PMBOK y soluciones tecnológicas.
         </p>
 
-        <div class="integrantes">
+        <div class="hero-buttons">
 
-            <h3>Integrantes</h3>
+            <a href="descripcion.html" class="btn-primary">
+                Explorar Proyecto
+            </a>
 
-            <ul>
-                <li>Jair Emanuel Castillo Roldán</li>
-                <li>Nick Ronald Rimache Oropeza</li>
-                <li>Lilibeth Kimiu Pezo Lanchi</li>
-                <li>Jadira Dina Vásquez Castro</li>
-            </ul>
+            <a href="proceso.html" class="btn-secondary">
+                Ver PMBOK
+            </a>
+
+        </div>
+
+        <!-- ESTADÍSTICAS -->
+
+        <div class="hero-stats">
+
+            <div class="stat-box">
+
+                <h2>8</h2>
+
+                <span>
+                    Secciones
+                </span>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h2>100%</h2>
+
+                <span>
+                    Gestión PMBOK
+                </span>
+
+            </div>
+
+            <div class="stat-box">
+
+                <h2>4</h2>
+
+                <span>
+                    Integrantes
+                </span>
+
+            </div>
 
         </div>
 
@@ -72,64 +120,254 @@
 
 </section>
 
-<section class="blog">
+<!-- INTEGRANTES -->
 
-    <article class="card">
+<section class="team-section">
 
-        <h2>
-            Resumen Ejecutivo
-        </h2>
+    <div class="section-title">
 
-        <p>
-            El proyecto busca modernizar
-            los procesos académicos y administrativos
-            mediante tecnologías digitales
-            y buenas prácticas PMBOK.
-        </p>
-
-        <a href="descripcion.html">
-            Leer más
-        </a>
-
-    </article>
-
-    <article class="card">
+        <span>
+            EQUIPO DEL PROYECTO
+        </span>
 
         <h2>
-            Diagnóstico Institucional
+            Integrantes
         </h2>
 
-        <p>
-            Se identificaron deficiencias
-            tecnológicas y procesos manuales
-            dentro de la institución educativa.
-        </p>
+    </div>
 
-        <a href="diagnostico.html">
-            Leer más
-        </a>
+    <div class="team-grid">
 
-    </article>
+        <div class="team-card">
 
-    <article class="card">
+            <div class="team-circle">
+                J
+            </div>
 
-        <h2>
-            Objetivos del Proyecto
-        </h2>
+            <h3>
+                Jair Emanuel
+            </h3>
 
-        <p>
-            Diseñar una propuesta de
-            transformación digital orientada
-            a la mejora institucional.
-        </p>
+            <p>
+                Castillo Roldán
+            </p>
 
-        <a href="objetivos.html">
-            Leer más
-        </a>
+        </div>
 
-    </article>
+        <div class="team-card">
+
+            <div class="team-circle">
+                N
+            </div>
+
+            <h3>
+                Nick Ronald
+            </h3>
+
+            <p>
+                Rimache Oropeza
+            </p>
+
+        </div>
+
+        <div class="team-card">
+
+            <div class="team-circle">
+                L
+            </div>
+
+            <h3>
+                Lilibeth Kimiu
+            </h3>
+
+            <p>
+                Pezo Lanchi
+            </p>
+
+        </div>
+
+        <div class="team-card">
+
+            <div class="team-circle">
+                J
+            </div>
+
+            <h3>
+                Jadira Dina
+            </h3>
+
+            <p>
+                Vásquez Castro
+            </p>
+
+        </div>
+
+    </div>
 
 </section>
+
+<!-- CARDS -->
+
+<section class="modern-blog">
+
+    <div class="section-title">
+
+        <span>
+            CONTENIDO PRINCIPAL
+        </span>
+
+        <h2>
+            Explora el Proyecto
+        </h2>
+
+    </div>
+
+    <div class="modern-grid">
+
+        <!-- CARD -->
+
+        <article class="modern-card">
+
+            <div class="card-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
+
+            </div>
+
+            <div class="card-content">
+
+                <span class="card-tag">
+                    PMBOK
+                </span>
+
+                <h2>
+                    Resumen Ejecutivo
+                </h2>
+
+                <p>
+                    Conoce la visión general
+                    del proyecto de transformación
+                    digital educativa.
+                </p>
+
+                <a href="descripcion.html">
+                    Leer más →
+                </a>
+
+            </div>
+
+        </article>
+
+        <!-- CARD -->
+
+        <article class="modern-card">
+
+            <div class="card-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
+
+            </div>
+
+            <div class="card-content">
+
+                <span class="card-tag">
+                    DIAGNÓSTICO
+                </span>
+
+                <h2>
+                    Análisis Institucional
+                </h2>
+
+                <p>
+                    Evaluación tecnológica
+                    y detección de problemas
+                    institucionales.
+                </p>
+
+                <a href="diagnostico.html">
+                    Leer más →
+                </a>
+
+            </div>
+
+        </article>
+
+        <!-- CARD -->
+
+        <article class="modern-card">
+
+            <div class="card-image">
+
+                <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+            </div>
+
+            <div class="card-content">
+
+                <span class="card-tag">
+                    OBJETIVOS
+                </span>
+
+                <h2>
+                    Metas del Proyecto
+                </h2>
+
+                <p>
+                    Estrategias y objetivos
+                    para mejorar la gestión
+                    educativa digital.
+                </p>
+
+                <a href="objetivos.html">
+                    Leer más →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- BANNER -->
+
+<section class="banner-home">
+
+    <div class="banner-box">
+
+        <h2>
+            Transformando la Educación
+            con Tecnología
+        </h2>
+
+        <p>
+            Proyecto académico basado
+            en innovación digital,
+            gestión estratégica y PMBOK.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <h3>
+        PMBLOG - Transformación Digital Educativa
+    </h3>
+
+    <p>
+        Proyecto académico UNTELS
+        basado en buenas prácticas PMBOK.
+    </p>
+
+</footer>
 
 </body>
 
