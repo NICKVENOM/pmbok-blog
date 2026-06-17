@@ -1,348 +1,321 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Proceso PMBOK - PMBLOG</title>
-
+    <title>Estructura de Procesos PMBOK e Innovación - Proyecto Final</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
 
-<!-- HEADER -->
+    <header class="header-global">
+        <div class="logo">
+            PMBOK <span class="logo__subtitle">| Gestión de Proyectos</span>
+        </div>
+        <nav class="nav-principal">
+            <a href="index.html" class="nav-principal__link">Inicio</a>
+            <a href="descripcion.html" class="nav-principal__link">Descripción</a>
+            <a href="stakeholders.html" class="nav-principal__link">Stakeholders</a>
+            <a href="involucramiento.html" class="nav-principal__link">Involucramiento</a>
+            <a href="proceso.html" class="nav-principal__link active">PMBOK</a>
+            <a href="diagnostico.html" class="nav-principal__link">Diagnóstico</a>
+            <a href="problematica.html" class="nav-principal__link">Problemática</a>
+            <a href="objetivos.html" class="nav-principal__link">Objetivos</a>
+        </nav>
+    </header>
 
-<header>
+    <section class="hero-diagnostico">
+        <div class="hero-diagnostico-content">
+            <h1 class="hero-diagnostico__title">Ciclo de Vida del Proyecto y Grupos de Procesos</h1>
+            <p class="hero-diagnostico__text">Framework metodológico basado en la Guía del PMBOK® aplicado a la Transformación Digital del Ecosistema Educativo.</p>
+        </div>
+    </section>
 
-    <div class="logo">
-        PMBLOG
+    <main class="dashboard">
+        <div class="dashboard-card grande">
+            <h2 class="dashboard-card__title">Gobernanza del Proyecto bajo el Estándar PMI</h2>
+            <p class="dashboard-card__text">Estructuración formal de los procesos de gestión de proyectos. Permite un control riguroso sobre la triple restricción (Alcance, Tiempo y Costo), asegurando la calidad del producto de software y la correcta transición operativa en la institución.</p>
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="Diagramación de Procesos de Ingeniería y Gestión" class="dashboard-card__image">
+        </div>
+
+        <div class="dashboard-card mini">
+            <h3 class="dashboard-card__subtitle">Fase I: Iniciación</h3>
+            <span class="dashboard-card__number">01</span>
+            <p class="dashboard-card__desc">Formalización del Acta de Constitución del Proyecto y alineamiento estratégico.</p>
+        </div>
+
+        <div class="dashboard-card mini">
+            <h3 class="dashboard-card__subtitle">Fase II: Planificación</h3>
+            <span class="dashboard-card__number">02</span>
+            <p class="dashboard-card__desc">Desarrollo de la EDT, Plan de Gestión de Riesgos y línea base del cronograma.</p>
+        </div>
+
+        <div class="dashboard-card mini">
+            <h3 class="dashboard-card__subtitle">Fase III: Ejecución</h3>
+            <span class="dashboard-card__number">03</span>
+            <p class="dashboard-card__desc">Despliegue de la arquitectura tecnológica e ingeniería de software.</p>
+        </div>
+    </main>
+
+    <section class="indicadores-section">
+        <div class="indicador-box">
+            <div class="circle">05</div>
+            <h3 class="indicador-box__title">Grupos de Procesos</h3>
+        </div>
+
+        <div class="indicador-box">
+            <div class="circle">100%</div>
+            <h3 class="indicador-box__title">Alineamiento PMI</h3>
+        </div>
+
+        <div class="indicador-box">
+            <div class="circle">ISO</div>
+            <h3 class="indicador-box__title">Calidad de Software</h3>
+        </div>
+    </section>
+
+    <section class="analisis-grid">
+        <article class="analisis-item">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Fase de Acta de Constitución" class="analisis-item__image">
+            <div class="analisis-item__content">
+                <h2>1. Grupo de Procesos de Inicio</h2>
+                <p>Establecimiento del propósito del proyecto. Se identifican y registran los interesados clave (Stakeholders) y se definen las restricciones iniciales de alto nivel en el Project Charter.</p>
+            </div>
+        </article>
+
+        <article class="analisis-item">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Fase de Planificación Estructurada" class="analisis-item__image">
+            <div class="analisis-item__content">
+                <h2>2. Grupo de Procesos de Planificación</h2>
+                <p>Establecimiento del alcance total del esfuerzo y definición de las líneas base. Desarrollo de la Estructura de Desglose del Trabajo (EDT/WBS) y el modelo de ruta crítica para la gestión del tiempo.</p>
+            </div>
+        </article>
+
+        <article class="analisis-item">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Desarrollo e Implementación" class="analisis-item__image">
+            <div class="analisis-item__content">
+                <h2>3. Grupo de Procesos de Ejecución</h2>
+                <p>Integración de los recursos humanos y materiales para ejecutar las actividades contempladas en el plan de gestión. Desarrollo modular, refactorización e integración de las bases de datos de la plataforma.</p>
+            </div>
+        </article>
+
+        <article class="analisis-item">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Monitoreo, Control y Aseguramiento" class="analisis-item__image">
+            <div class="analisis-item__content">
+                <h2>4. Grupo de Procesos de Monitoreo y Control</h2>
+                <p>Medición y análisis regular del desempeño del proyecto mediante la Gestión del Valor Ganado (EVM). Detección de desviaciones respecto a las líneas base para implementar acciones correctivas preventivas.</p>
+            </div>
+        </article>
+
+        <article class="analisis-item">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Fase de Cierre y Transferencia" class="analisis-item__image">
+            <div class="analisis-item__content">
+                <h2>5. Grupo de Procesos de Cierre</h2>
+                <p>Finalización formal de todas las actividades contractuales y operativas del proyecto. Transferencia del producto final al cliente, recopilación de activos de los procesos de la organización y lecciones aprendidas.</p>
+            </div>
+        </article>
+    </section>
+
+
+<div class="analisis-lista-vertical" style="display: flex; flex-direction: column; gap: 2.5rem; width: 100%;">
+    
+    <article class="analisis-item" style="grid-column: 1 / -1; width: 100%; margin: 0; padding: 0; overflow: hidden; display: flex; flex-wrap: wrap; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div class="analisis-item__content" style="flex: 1 1 55%; padding: 2.5rem; display: flex; flex-direction: column; gap: 1.2rem; box-sizing: border-box;">
+            <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem;">
+                <h2 style="margin: 0; font-size: 1.6rem; color: #94a3b8;">1. Inmersión y Empatía</h2>
+                <span class="fase-tag tag-empatizar" style="font-size: 0.8rem; padding: 6px 14px; background: #e0f2fe; color: #0369a1; border-radius: 4px; font-weight: 600; white-space: nowrap;">Investigación Cualitativa</span>
+            </header>
+            
+            <p style="margin: 0; line-height: 1.7; color: #334155; text-align: justify;">
+                Esta fase inicial establece la base antropológica y cualitativa del proyecto mediante una inmersión profunda en el entorno educativo real. El objetivo prioritario consiste en mapear, caracterizar y comprender las estructuras cognitivas, los modelos mentales, las fricciones cotidianas y las frustraciones sistémicas de los actores clave: la plana docente, el cuerpo directivo, el personal administrativo y los estudiantes. Al suspender los sesgos técnicos preestablecidos, se logra capturar la experiencia humana directa frente a los sistemas actuales.
+            </p>
+            
+            <div style="padding: 1.2rem; background-color: #f8fafc; border-left: 4px solid #0f766e; border-radius: 0 4px 4px 0; margin: 0.5rem 0;">
+                <h3 style="font-size: 0.95rem; margin: 0 0 0.4rem 0; color: #0f766e; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;">Aporte Estratégico al Éxito del Proyecto</h3>
+                <p style="font-size: 0.9rem; font-style: italic; margin: 0; color: #475569; line-height: 1.6;">
+                    Garantiza el levantamiento de requerimientos de información no estructurada directamente en el campo operativo. Esto reduce drásticamente la asimetría de información y los malentendidos metodológicos antes de iniciar el modelado formal de los procesos del negocio, evitando desviaciones costosas en la triple restricción.
+                </p>
+            </div>
+
+            <div class="badges-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Entrevistas en Profundidad Semiestructuradas</span>
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Modelos de Empatía Sistémica</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Arquetipos de Usuario (User Persona)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Customer Journey Map (CJM)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Observación Participativa (Shadowing)</span>
+            </div>
+        </div>
+        <div style="flex: 1 1 45%; min-height: 350px; position: relative; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Investigación y Empatía con Usuarios" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+    </article>
+
+    <article class="analisis-item" style="grid-column: 1 / -1; width: 100%; margin: 0; padding: 0; overflow: hidden; display: flex; flex-wrap: wrap; flex-direction: row-reverse; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div class="analisis-item__content" style="flex: 1 1 55%; padding: 2.5rem; display: flex; flex-direction: column; gap: 1.2rem; box-sizing: border-box;">
+            <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem;">
+                <h2 style="margin: 0; font-size: 1.6rem; color: #94a3b8;">2. Definición y Diagnóstico</h2>
+                <span class="fase-tag tag-definir" style="font-size: 0.8rem; padding: 6px 14px; background: #fef3c7; color: #b45309; border-radius: 4px; font-weight: 600; white-space: nowrap;">Abstracción Crítica</span>
+            </header>
+            
+            <p style="margin: 0; line-height: 1.7; color: #334155; text-align: justify;">
+                Durante la fase de definición, el equipo técnico procesa y sintetiza el espectro masivo de datos cualitativos recolectados en el campo. Mediante un análisis riguroso de abstracción, se aíslan los síntomas superficiales para identificar con precisión las verdaderas causas raíz de la baja eficiencia operativa e institucional. Este diagnóstico crítico permite transformar dolores ambiguos en enunciados de problemas concisos, estructurando formalmente los desafíos desde una perspectiva enfocada en la viabilidad sistémica.
+            </p>
+            
+            <div style="padding: 1.2rem; background-color: #f8fafc; border-left: 4px solid #0f766e; border-radius: 0 4px 4px 0; margin: 0.5rem 0;">
+                <h3 style="font-size: 0.95rem; margin: 0 0 0.4rem 0; color: #0f766e; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;">Aporte Estratégico al Éxito del Proyecto</h3>
+                <p style="font-size: 0.9rem; font-style: italic; margin: 0; color: #475569; line-height: 1.6;">
+                    Establece los cimientos analíticos indispensables para delimitar el alcance técnico con absoluta precisión. Funciona como el filtro metodológico que traduce las necesidades humanas detectadas en la documentación técnica de entrada del proyecto (Línea Base del Alcance en el PMBOK).
+                </p>
+            </div>
+
+            <div class="badges-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Análisis Causa-Efecto (Diagrama de Ishikawa)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Point of View (POV) Framework</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Formulación de Retos "How Might We" (HMW)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Mapeo Conceptual de Insights Operativos</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Matriz de Oportunidades Críticas</span>
+            </div>
+        </div>
+        <div style="flex: 1 1 45%; min-height: 350px; position: relative; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Análisis de Datos y Diagnóstico de Alcance" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+    </article>
+
+    <article class="analisis-item" style="grid-column: 1 / -1; width: 100%; margin: 0; padding: 0; overflow: hidden; display: flex; flex-wrap: wrap; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div class="analisis-item__content" style="flex: 1 1 55%; padding: 2.5rem; display: flex; flex-direction: column; gap: 1.2rem; box-sizing: border-box;">
+            <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem;">
+                <h2 style="margin: 0; font-size: 1.6rem; color: #94a3b8;">3. Ideación y Viabilidad Técnica</h2>
+                <span class="fase-tag tag-idear" style="font-size: 0.8rem; padding: 6px 14px; background: #dcfce7; color: #15803d; border-radius: 4px; font-weight: 600; white-space: nowrap;">Arquitectura Estratégica</span>
+            </header>
+            
+            <p style="margin: 0; line-height: 1.7; color: #334155; text-align: justify;">
+                La fase de ideación rompe con las soluciones convencionales a través de una exploración multivariable de ideas y propuestas de solución tecnológica. Utilizando dinámicas avanzadas de pensamiento lateral y combinatoria sistémica, el equipo diseña mapas funcionales, servicios interconectados y módulos lógicos orientados a optimizar de manera sustancial la interoperabilidad de datos y la automatización de flujos institucionales dentro de la plataforma educativa.
+            </p>
+            
+            <div style="padding: 1.2rem; background-color: #f8fafc; border-left: 4px solid #0f766e; border-radius: 0 4px 4px 0; margin: 0.5rem 0;">
+                <h3 style="font-size: 0.95rem; margin: 0 0 0.4rem 0; color: #0f766e; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;">Aporte Estratégico al Éxito del Proyecto</h3>
+                <p style="font-size: 0.9rem; font-style: italic; margin: 0; color: #475569; line-height: 1.6;">
+                    Neutraliza el sesgo de confirmación técnica inmediata de los desarrolladores. Al priorizar científicamente los componentes de software con matrices de impacto versus complejidad de TI, se asegura un retorno de inversión óptimo y un despliegue de funcionalidades realista y acotado.
+                </p>
+            </div>
+
+            <div class="badges-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Divergencia Guiada (Brainstorming Estructurado)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Matriz de Priorización Esfuerzo / Impacto</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Reencuadre de Procesos SCAMPER</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Ideación Rápida de Interfaz (Crazy Eights)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Clasificación Jerárquica por Afinidad</span>
+            </div>
+        </div>
+        <div style="flex: 1 1 45%; min-height: 350px; position: relative; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Sesión de Ideación y Arquitectura de Software" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+    </article>
+
+    <article class="analisis-item" style="grid-column: 1 / -1; width: 100%; margin: 0; padding: 0; overflow: hidden; display: flex; flex-wrap: wrap; flex-direction: row-reverse; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div class="analisis-item__content" style="flex: 1 1 55%; padding: 2.5rem; display: flex; flex-direction: column; gap: 1.2rem; box-sizing: border-box;">
+            <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem;">
+                <h2 style="margin: 0; font-size: 1.6rem; color: #94a3b8;">4. Prototipado y Modelado de Experiencia</h2>
+                <span class="fase-tag tag-prototipar" style="font-size: 0.8rem; padding: 6px 14px; background: #f3e8ff; color: #7e22ce; border-radius: 4px; font-weight: 600; white-space: nowrap;">Lean UX</span>
+            </header>
+            
+            <p style="margin: 0; line-height: 1.7; color: #334155; text-align: justify;">
+                El prototipado materializa las ideas abstractas mediante la construcción ágil e incremental de simulaciones interactivas de alta fidelidad. Al trabajar bajo metodologías Lean UX, se modelan los flujos críticos del sistema, la disposición jerárquica de la información y los componentes visuales de la interfaz de usuario sin consumir horas de desarrollo backend ni comprometer la infraestructura de servidores de la organización.
+            </p>
+            
+            <div style="padding: 1.2rem; background-color: #f8fafc; border-left: 4px solid #0f766e; border-radius: 0 4px 4px 0; margin: 0.5rem 0;">
+                <h3 style="font-size: 0.95rem; margin: 0 0 0.4rem 0; color: #0f766e; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;">Aporte Estratégico al Éxito del Proyecto</h3>
+                <p style="font-size: 0.9rem; font-style: italic; margin: 0; color: #475569; line-height: 1.6;">
+                    Mitiga sustancialmente los riesgos financieros y el retrabajo en la fase de construcción de la ingeniería de software. El prototipo clickable actúa como un blueprint interactivo exacto y aprobado por los interesados antes de la escritura de código limpio en producción.
+                </p>
+            </div>
+
+            <div class="badges-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Modelado Esquemático de Baja Fidelidad (Wireframes)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Maquetas de Alta Fidelidad en Figma</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Mapeo de Flujos de Interacción de Usuario</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Prototipos UI Dinámicos e Interactivos</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Componentización Avanzada y Design Systems</span>
+            </div>
+        </div>
+        <div style="flex: 1 1 45%; min-height: 350px; position: relative; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Diseño de Interfaz y Prototipos UI UX" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+    </article>
+
+    <article class="analisis-item" style="grid-column: 1 / -1; width: 100%; margin: 0; padding: 0; overflow: hidden; display: flex; flex-wrap: wrap; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div class="analisis-item__content" style="flex: 1 1 55%; padding: 2.5rem; display: flex; flex-direction: column; gap: 1.2rem; box-sizing: border-box;">
+            <header style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 1rem;">
+                <h2 style="margin: 0; font-size: 1.6rem; color: #94a3b8;">5. Evaluación y Control de Calidad UX</h2>
+                <span class="fase-tag tag-evaluar" style="font-size: 0.8rem; padding: 6px 14px; background: #ffe4e6; color: #be123c; border-radius: 4px; font-weight: 600; white-space: nowrap;">Pruebas Heurísticas</span>
+            </header>
+            
+            <p style="margin: 0; line-height: 1.7; color: #334155; text-align: justify;">
+                La fase final de evaluación cierra el ciclo de innovación mediante la validación empírica de las soluciones propuestas en el ecosistema operativo real de la institución educativa. Se ejecutan pruebas dirigidas donde se miden cuantitativa y cualitativamente variables clave del rendimiento del usuario, tales como los tiempos de ejecución de tareas críticas, curvas de aprendizaje autónomo y tasas de error procedimental, garantizando la mejora continua.
+            </p>
+            
+            <div style="padding: 1.2rem; background-color: #f8fafc; border-left: 4px solid #0f766e; border-radius: 0 4px 4px 0; margin: 0.5rem 0;">
+                <h3 style="font-size: 0.95rem; margin: 0 0 0.4rem 0; color: #0f766e; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;">Aporte Estratégico al Éxito del Proyecto</h3>
+                <p style="font-size: 0.9rem; font-style: italic; margin: 0; color: #475569; line-height: 1.6;">
+                    Garantiza el aseguramiento y control proactivo ante los riesgos críticos de adopción digital y resistencia al cambio institucional. El cumplimiento estricto de estándares internacionales de usabilidad asegura la viabilidad del software a largo plazo tras la entrega del proyecto.
+                </p>
+            </div>
+
+            <div class="badges-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                <span class="badge-herramienta badge-clasica" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem;">Cuestionarios Psicométricos Cuantitativos (SUS / UMUX)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Malla Receptora de Feedback (Feedback Matrix)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Pruebas de Usabilidad con Usuarios Finales</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Análisis de Evaluación Heurística (Principios de Nielsen)</span>
+                <span class="badge-herramienta badge-nueva" style="padding: 6px 12px; background: #f1f5f9; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">★ Matriz de Iteración, Ajuste y Refinamiento Técnico</span>
+            </div>
+        </div>
+        <div style="flex: 1 1 45%; min-height: 350px; position: relative; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Evaluación Heurística y Calidad del Software" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+        </div>
+    </article>
+    
+
+</div>
+    <section class="diagnostico-final">
+        <div class="blur-box">
+            <span class="blur-box__tag">RETORNO DE INVERSIÓN METODOLÓGICO</span>
+            <h2 class="blur-box__title">Aseguramiento del Éxito del Proyecto</h2>
+            <p class="blur-box__text">La integración sistemática del enfoque ágil de diseño con las rigurosas prácticas de control de la Guía del PMBOK® mitiga el riesgo técnico, incrementa el índice de adopción del software y maximiza el valor entregado a la institución educativa.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer__title">Memoria de Gestión de Proyectos - Dirección de Transformación Digital</h3>
+        <p class="footer__text">Proyecto Técnico Profesional bajo lineamientos del Project Management Institute (PMI).</p>
+    </footer>
+<!-- ====================================================================== -->
+<!-- SECCIÓN DE ANEXOS TÉCNICOS: DIAGRAMAS DE GESTIÓN DE ALCANCE Y EDT -->
+<!-- ====================================================================== -->
+<section class="seccion-diagramas-final" style="display: flex; flex-direction: column; gap: 2rem; width: 100%; margin-top: 3rem; border-top: 2px solid #e2e8f0; padding-top: 2rem;">
+    
+    <header style="margin-bottom: 1rem;">
+        <h2 style="margin: 0; font-size: 1.5rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px;">Anexos Técnicos: Ingeniería del Alcance</h2>
+        <p style="margin: 0.3rem 0 0 0; font-size: 0.95rem; color: #64748b;">Artefactos y estructuras del control y planificación del proyecto.</p>
+    </header>
+
+    <!-- DIAGRAMA 1: GESTIÓN DE ALCANCE DEL PROYECTO -->
+    <div class="contenedor-diagrama" style="padding: 1.5rem; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.03); text-align: center;">
+        <span style="font-size: 0.85rem; color: #64748b; display: block; margin-bottom: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Diagrama: Gestión de Alcance del Proyecto</span>
+        <img src="imagenes/gestion_alcance_proyecto.png" alt="Diagrama Gestión de Alcance del Proyecto" style="max-width: 100%; height: auto; border-radius: 4px;">
     </div>
 
-    <nav>
+    <!-- DIAGRAMA 2: PROCESOS DE GESTIÓN DE ALCANCE -->
+    <div class="contenedor-diagrama" style="padding: 1.5rem; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.03); text-align: center;">
+        <span style="font-size: 0.85rem; color: #64748b; display: block; margin-bottom: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Diagrama: Procesos de Gestión de Alcance (PMBOK)</span>
+        <img src="imagenes/procesos_gestion_alcance_pmbok.png" alt="Procesos de Gestión de Alcance" style="max-width: 100%; height: auto; border-radius: 4px;">
+    </div>
 
-        <a href="index.html">Inicio</a>
-        <a href="descripcion.html">Descripción</a>
-        <a href="stakeholders.html">Stakeholders</a>
-        <a href="involucramiento.html">Involucramiento</a>
-        <a href="proceso.html">PMBOK</a>
-        <a href="diagnostico.html">Diagnóstico</a>
-        <a href="problematica.html">Problemática</a>
-        <a href="objetivos.html">Objetivos</a>
-
-    </nav>
-
-</header>
-
-<!-- HERO -->
-
-<section class="hero-diagnostico">
-
-    <div class="hero-diagnostico-content">
-
-        <span class="categoria">
-            PMBOK • GESTIÓN DE PROYECTOS
-        </span>
-
-        <h1>
-            Proceso PMBOK
-        </h1>
-
-        <p>
-            Aplicación de buenas prácticas
-            para la gestión del proyecto
-            de transformación digital educativa.
-        </p>
-
+    <!-- DIAGRAMA 3: LA EDT -->
+    <div class="contenedor-diagrama" style="padding: 1.5rem; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.03); text-align: center;">
+        <span style="font-size: 0.85rem; color: #64748b; display: block; margin-bottom: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Estructura de Desglose de Trabajo (EDT / WBS)</span>
+        <img src="imagenes/EDT_WBS_plataforma_educativa.png" alt="Estructura de Desglose de Trabajo EDT" style="max-width: 100%; height: auto; border-radius: 4px;">
     </div>
 
 </section>
-
-<!-- PANEL PRINCIPAL -->
-
-<section class="dashboard">
-
-    <div class="dashboard-card grande">
-
-        <h2>
-            Metodología PMBOK
-        </h2>
-
-        <p>
-            El PMBOK proporciona una estructura
-            organizada para gestionar proyectos
-            mediante procesos de inicio,
-            planificación, ejecución,
-            monitoreo y cierre.
-        </p>
-
-        <img
-        src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
-
-    </div>
-
-    <div class="dashboard-card mini">
-
-        <h3>
-            Inicio
-        </h3>
-
-        <span>
-            01
-        </span>
-
-        <p>
-            Definición oficial
-            y aprobación del proyecto.
-        </p>
-
-    </div>
-
-    <div class="dashboard-card mini">
-
-        <h3>
-            Planificación
-        </h3>
-
-        <span>
-            02
-        </span>
-
-        <p>
-            Cronograma, alcance,
-            presupuesto y riesgos.
-        </p>
-
-    </div>
-
-    <div class="dashboard-card mini">
-
-        <h3>
-            Ejecución
-        </h3>
-
-        <span>
-            03
-        </span>
-
-        <p>
-            Implementación tecnológica
-            y capacitación.
-        </p>
-
-    </div>
-
-</section>
-
-<!-- INDICADORES -->
-
-<section class="indicadores-section">
-
-    <div class="indicador-box">
-
-        <div class="circle">
-            5
-        </div>
-
-        <h3>
-            Fases PMBOK
-        </h3>
-
-    </div>
-
-    <div class="indicador-box">
-
-        <div class="circle">
-            100%
-        </div>
-
-        <h3>
-            Gestión Organizada
-        </h3>
-
-    </div>
-
-    <div class="indicador-box">
-
-        <div class="circle">
-            PM
-        </div>
-
-        <h3>
-            Buenas Prácticas
-        </h3>
-
-    </div>
-
-</section>
-
-<!-- ANALISIS -->
-
-<section class="analisis-grid">
-
-    <!-- INICIO -->
-
-    <div class="analisis-item">
-
-        <img
-        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
-
-        <div>
-
-            <h2>
-                Inicio del Proyecto
-            </h2>
-
-            <p>
-                Se define oficialmente
-                el proyecto y se identifican
-                los stakeholders principales.
-            </p>
-
-        </div>
-
-    </div>
-
-    <!-- PLANIFICACION -->
-
-    <div class="analisis-item">
-
-        <img
-        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
-
-        <div>
-
-            <h2>
-                Planificación
-            </h2>
-
-            <p>
-                Elaboración del cronograma,
-                presupuesto, alcance,
-                recursos y riesgos.
-            </p>
-
-        </div>
-
-    </div>
-
-    <!-- EJECUCION -->
-
-    <div class="analisis-item">
-
-        <img
-        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
-
-        <div>
-
-            <h2>
-                Ejecución
-            </h2>
-
-            <p>
-                Implementación de plataformas
-                digitales y modernización
-                de procesos institucionales.
-            </p>
-
-        </div>
-
-    </div>
-
-    <!-- MONITOREO -->
-
-    <div class="analisis-item">
-
-        <img
-        src="https://images.unsplash.com/photo-1552664730-d307ca884978">
-
-        <div>
-
-            <h2>
-                Monitoreo y Control
-            </h2>
-
-            <p>
-                Supervisión del avance,
-                control de indicadores
-                y mejora continua.
-            </p>
-
-        </div>
-
-    </div>
-
-    <!-- CIERRE -->
-
-    <div class="analisis-item">
-
-        <img
-        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
-
-        <div>
-
-            <h2>
-                Cierre del Proyecto
-            </h2>
-
-            <p>
-                Entrega final,
-                validación institucional
-                y lecciones aprendidas.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- BENEFICIOS -->
-
-<section class="diagnostico-final">
-
-    <div class="blur-box">
-
-        <span>
-            BENEFICIOS PMBOK
-        </span>
-
-        <h2>
-            Beneficios de la Metodología
-        </h2>
-
-        <p>
-            La aplicación del PMBOK permite
-            mejorar la organización,
-            controlar riesgos,
-            optimizar recursos
-            y garantizar el cumplimiento
-            de los objetivos institucionales.
-        </p>
-
-    </div>
-
-</section>
-
-<!-- FOOTER -->
-
-<footer class="footer">
-
-    <h3>
-        PMBLOG - Transformación Digital Educativa
-    </h3>
-
-    <p>
-        Proyecto académico basado
-        en buenas prácticas PMBOK.
-    </p>
-
-</footer>
-
 </body>
-
 </html>
